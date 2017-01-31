@@ -4,9 +4,21 @@ body {
 }
 
 #song {
-transform: scale(1.5, 1.5);
--webkit-transform: scale(1.5, 1.5);
--moz-transform: scale(1.5, 1.5);
--o-transform: scale(1.5, 1.5);
--ms-transform: scale(1.5, 1.5);
+.classname {
+-webkit-animation: cssAnimation 2.0282s 15 ease;
+-moz-animation: cssAnimation 2.0282s 15 ease;
+-o-animation: cssAnimation 2.0282s 15 ease;
+}
+@-webkit-keyframes cssAnimation {
+from { -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+to { -webkit-transform: rotate(360deg) scale(1) skew(1deg) translate(0px); }
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+to { -moz-transform: rotate(360deg) scale(1) skew(1deg) translate(0px); }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+to { -o-transform: rotate(360deg) scale(1) skew(1deg) translate(0px); }
+
 }
