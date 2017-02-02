@@ -1,4 +1,66 @@
-.abstract {
+body {
+	background-color: #B2F7C5;
+	font-family: courier, helvetica, sans-serif;
 
-text-align: right;
-margin-top: 100px;}
+}
+
+p {
+	color: #B2F7C5;
+}
+
+h1 {
+	font-size: 15px;
+	color: #B2F7C5;
+}
+
+#Box1 {
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	width: 300px;
+	height: 300px;
+    position: fixed;
+    top: 10px;
+	overflow: scroll;
+	border: 10px solid pink;
+}
+
+.abstract {
+	text-align: center;
+}
+.doodle {
+	border: 1px solid black;
+	text-align: left;
+}
+
+#Box2 {
+	background-color: #FFFFFF;
+	margin-left: 300px;
+	width: 300px;
+	height: 300px;
+    position: fixed;
+    top: 300px;
+	overflow: scroll;
+	border: 10px solid pink;
+}
+
+#Box3 {
+	background-color: #FFFFFF;
+	margin-left: 600px;
+	width: 300px;
+	height: 300px;
+    position: fixed;
+    top: 10px;
+	overflow: scroll;
+	border: 10px solid pink;
+}
+
+#Box4 {
+	background-color: #FFFFFF;
+	margin-left: 900px;
+	width: 300px;
+	height: 300px;
+    position: fixed;
+    top: 300px;
+	overflow: scroll;
+	border: 10px solid pink;
+}
