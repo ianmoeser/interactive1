@@ -43,28 +43,6 @@ h1 {
 	border: 10px solid pink;
 }
 
-#Box3 {
-	background-color: #FFFFFF;
-	margin-left: 600px;
-	width: 300px;
-	height: 300px;
-    position: fixed;
-    top: 10px;
-	overflow: scroll;
-	border: 10px solid pink;
-}
-
-#Box4 {
-	background-color: #FFFFFF;
-	margin-left: 900px;
-	width: 300px;
-	height: 300px;
-    position: fixed;
-    top: 300px;
-	overflow: scroll;
-	border: 10px solid pink;
-}
-
 #navi {
 	margin-top: 500px;
 }
