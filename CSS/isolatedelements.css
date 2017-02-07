@@ -1,11 +1,12 @@
 body {
 	background-color: #B2F7C5;
-	font-family: courier, helvetica, sans-serif;
+	font-family: helvetica, sans-serif;
 
 }
 
 p {
 	color: #B2F7C5;
+	font-size: 10px;
 }
 
 h1 {
@@ -25,11 +26,22 @@ h1 {
 	border: 10px solid pink;
 }
 
-.abstract {
-	text-align: center;
+.grindr {
+	text-align: left;
 }
-.doodle {
-	border: 1px solid black;
+.instaDM {
+	text-align: right;
+}
+
+.kik {
+	text-align: left;
+}
+
+.line {
+	text-align: right;
+}
+
+.imessage {
 	text-align: left;
 }
 
@@ -42,6 +54,25 @@ h1 {
     top: 200px;
 	overflow: scroll;
 	border: 10px solid pink;
+}
+
+.robotchat {
+	text-align: left;
+}
+.chatroom {
+	text-align: right;
+}
+
+.twitterDM {
+	text-align: left;
+}
+
+.googlehangout {
+	text-align: right;
+}
+
+.skype {
+	text-align: left;
 }
 
 #navi {
