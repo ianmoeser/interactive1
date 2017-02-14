@@ -17,20 +17,21 @@ h1 {
 
 #Box1 {
 	background-color: none;
+	background-image: url('https://s25.postimg.org/3nb9scpof/iphone.png');
 	background-size: cover;
-	background-image: url('https://s25.postimg.org/vopb61uyn/imac.png');
-	margin-left: 250px;
-	width: 800px;
-	height: 667px;
+	margin-left: 450px;
+	width: 291px;
+	height: 600px;
     position: fixed;
-    top: 0px;
+    top: 20px;
+
 }
 
 .content {
-	width: 723px;
-	margin-left:35px;
-	margin-top:35px;
-	height: 405px;
+	width: 250px;
+	margin-left:20px;
+	margin-top:75px;
+	height: 452px;
     overflow: scroll;
 	border: 0px solid pink;
 
