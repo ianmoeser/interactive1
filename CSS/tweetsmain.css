@@ -1,0 +1,17 @@
+#tweets { 
+	position: relative;
+	margin-left: 300px;
+	margin: 400 auto;
+}
+
+.tweet1:hover { 
+	transform: translate(20px,0px);
+}
+
+.tweet2:hover {
+	transform: translate(20px,0px);
+}
+
+img {
+	transition: all ease 500ms;
+}
