@@ -26,3 +26,7 @@ body {
 	margin-left: 250px;
 	margin-top: 50px;
 }
+
+body {
+	cursor: url('http://i.imgur.com/4q6v0xT.png'), default;
+}
