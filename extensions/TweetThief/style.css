@@ -1,0 +1,16 @@
+.hide {
+  opacity: 0;
+}
+
+#tweet-block {
+	background: blue;
+}
+
+#text {
+	color: blue
+	font-size: 24pt;
+}
+
+.cursor {
+    cursor: url('http://i.imgur.com/4q6v0xT.png'), default !important;
+}
