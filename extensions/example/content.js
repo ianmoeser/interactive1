@@ -10,7 +10,7 @@ return text;
 $(document).ready(function () {
 $('body').mouseup(function (e) {
     if (getSelectionText() != "") {
-        window.open('https://twitter.com/intent/tweet?text='+encodeURI(getSelectionText()) + ' (Via TweetThief) URL: ' + encodeURI(document.URL));
+        window.open('https://twitter.com/intent/tweet?text='+encodeURI(getSelectionText()) + ' URL: ' + encodeURI(document.URL));
     }
 })
 });
