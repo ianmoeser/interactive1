@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>🚨</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="P3.css"> 
+	<!-- <script src="assets/js/script.js"></script> -->
+</head>
+
+<body>
+
+<div id="maze">
+</div>	
+<div class="line1"></div>
+
+<div class="line2"></div>
+
+<div class="line3"></div>
+
+<div class="line4"></div>
+
+<div class="line5"></div>
+
+<div class="line6"></div>
+
+<div class="line7"></div>
+
+<div class="line8"></div>
+
+<div class="line9"></div>
+
+<div class="line10"></div>
+
+<div class="line11"></div>
+
+<div class="line12"></div>
+
+<div class="line13"></div>
+
+<div class="line14"></div>
+
+<div class="line15"></div>
+
+<div class="birds">
+   <audio src="IMG/xfilessound.mp3" preload="auto"></audio>
+</div> 
+
+<!-- JAVA -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+
+<script>
+
+$(document).ready(function(){
+//random photos
+	var images = ["image1", "image2", "image3", "image4", "image5", "image6"];
+	
+	function getImage() {
+	   return images[Math.floor(Math.random() * images.length)];
+	}
+//disappearing 
+$('#maze').hover(function() {
+     $(this).addClass(getImage());
+  }, function() {
+     $(this).removeClass();
+  });
+
+});
+
+
+
+
+
+</script>
+
+<audio id="doodoo" preload="auto">
+<source src="IMG/xfilessound.mp3"></source>
+<source src="IMG/xfilessound.mp3"></source>
+This browser does not support the HTML5 audio tag.
+</audio>	
+<script>
+var doodoo = $("#doodoo")[0];
+$("#maze").mouseenter(function() {
+doodoo.play();
+
+});
+</script>	
+</body>
+</html>
